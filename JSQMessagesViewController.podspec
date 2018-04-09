@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
 	s.platform = :ios, '7.0'
 
 	s.author = 'ietty'
-
+  s.homepage = 'https://github.com/jessesquires/MessagesTableViewController'
 	s.source = { :git => 'https://github.com/ietty/JSQMessagesViewController.git', :tag => s.version }
 	s.source_files = 'JSQMessagesViewController/**/*.{h,m}'
 
@@ -16,6 +16,6 @@ Pod::Spec.new do |s|
 	s.requires_arc = true
 
 	s.dependency 'JSQSystemSoundPlayer', '~> 2.0.1'
-	
+
 	s.deprecated = true
 end
